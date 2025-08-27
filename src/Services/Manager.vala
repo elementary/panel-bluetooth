@@ -28,7 +28,7 @@ public class BluetoothIndicator.Services.ObjectManager : Object {
     public bool is_connected {get; private set; default = false; }
 
     construct {
-        settings = new Settings ("io.elementary.desktop.wingpanel.bluetooth");
+        settings = new Settings ("io.elementary.desktop.bluetooth");
         create_manager.begin ();
     }
 
@@ -52,13 +52,6 @@ public class BluetoothIndicator.Services.ObjectManager : Object {
             });
             object_manager.object_removed.connect ((object) => {
                 object.get_interfaces ().foreach ((iface) => on_interface_removed (object, iface));
-            });
-
-            settings.changed["bluetooth-enabled"].connect (() => {
-                var enabled = settings.get_boolean ("bluetooth-enabled");
-                if (enabled != this.is_powered) {
-                    set_state_from_settings.begin ();
-                }
             });
         } catch (Error e) {
             critical (e.message);
@@ -230,7 +223,7 @@ public class BluetoothIndicator.Services.ObjectManager : Object {
     }
 
     public async void set_state_from_settings () {
-        yield set_global_state (settings.get_boolean ("bluetooth-enabled"));
+        yield set_global_state (settings.get_boolean ("enabled"));
     }
 
     public static bool compare_devices (Device device, Device other) {
