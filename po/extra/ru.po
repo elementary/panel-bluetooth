@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-24 18:13+0000\n"
+"POT-Creation-Date: 2025-08-12 16:06+0000\n"
 "PO-Revision-Date: 2022-09-30 09:41+0000\n"
 "Last-Translator: lenemter <lenemter@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/wingpanel/"
@@ -27,6 +27,10 @@ msgstr "Индикатор Bluetooth"
 #: data/bluetooth.metainfo.xml.in:13
 msgid "Connect and disconnect paired Bluetooth devices"
 msgstr "Подключайте и отсоединяйте сопряжённые устройства Bluetooth"
+
+#: data/bluetooth.metainfo.xml.in:28
+msgid "elementary, Inc."
+msgstr "elementary, Inc."
 
 #: data/bluetooth.metainfo.xml.in:36 data/bluetooth.metainfo.xml.in:48
 #: data/bluetooth.metainfo.xml.in:60 data/bluetooth.metainfo.xml.in:75
@@ -63,6 +67,3 @@ msgstr "Добавлено запасное имя устройства для �
 #~ msgstr ""
 #~ "Использовать тип устройства в качестве запасного устройства вместо "
 #~ "«(null)»"
-
-#~ msgid "elementary, Inc."
-#~ msgstr "elementary, Inc."

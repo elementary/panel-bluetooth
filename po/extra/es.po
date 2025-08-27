@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-24 18:13+0000\n"
+"POT-Creation-Date: 2025-08-12 16:06+0000\n"
 "PO-Revision-Date: 2024-06-30 14:16+0000\n"
 "Last-Translator: Italo Felipe Capasso Ballesteros <edwood.grant@gmail.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/wingpanel/"
@@ -26,6 +26,10 @@ msgstr "Indicador de Bluetooth"
 #: data/bluetooth.metainfo.xml.in:13
 msgid "Connect and disconnect paired Bluetooth devices"
 msgstr "Conecte y desconecte dispositivos Bluetooth emparejados"
+
+#: data/bluetooth.metainfo.xml.in:28
+msgid "elementary, Inc."
+msgstr "elementary, Inc."
 
 #: data/bluetooth.metainfo.xml.in:36 data/bluetooth.metainfo.xml.in:48
 #: data/bluetooth.metainfo.xml.in:60 data/bluetooth.metainfo.xml.in:75
@@ -62,6 +66,3 @@ msgstr "Añadir un nombre predeterminado para auriculares"
 #~ msgstr ""
 #~ "Cuando no se puede obtener el nombre de los dispositivos se muestra su "
 #~ "tipo en lugar de «(null)»"
-
-#~ msgid "elementary, Inc."
-#~ msgstr "elementary, Inc."

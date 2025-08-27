@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-24 18:13+0000\n"
+"POT-Creation-Date: 2025-08-12 16:06+0000\n"
 "PO-Revision-Date: 2015-11-18 20:57+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,97 +13,97 @@ msgstr ""
 "X-Launchpad-Export-Date: 2017-04-05 07:48+0000\n"
 "X-Generator: Launchpad (build 18335)\n"
 
-#: src/Widgets/Device.vala:54 src/Widgets/Device.vala:280
+#: src/Widgets/Device.vala:42 src/Widgets/Device.vala:272
 msgid "Not Connected"
 msgstr ""
 
-#: src/Widgets/Device.vala:165
+#: src/Widgets/Device.vala:157
 #, c-format
 msgid "<b>Filename</b>: %s"
 msgstr ""
 
-#: src/Widgets/Device.vala:170
+#: src/Widgets/Device.vala:162
 #, c-format
 msgid "Receiving… %s of %s"
 msgstr ""
 
-#: src/Widgets/Device.vala:174
+#: src/Widgets/Device.vala:166
 #, c-format
 msgid "Sending… %s of %s"
 msgstr ""
 
-#: src/Widgets/Device.vala:221
+#: src/Widgets/Device.vala:213
 msgid "Connecting…"
 msgstr ""
 
-#: src/Widgets/Device.vala:224
+#: src/Widgets/Device.vala:216
 msgid "Disconnecting…"
 msgstr ""
 
-#: src/Widgets/Device.vala:229
+#: src/Widgets/Device.vala:221
 msgid "Unable to Connect"
 msgstr ""
 
-#: src/Widgets/Device.vala:242
+#: src/Widgets/Device.vala:234
 msgid "Speaker"
 msgstr ""
 
-#: src/Widgets/Device.vala:245
+#: src/Widgets/Device.vala:237
 msgid "Headphones"
 msgstr ""
 
-#: src/Widgets/Device.vala:248
+#: src/Widgets/Device.vala:240
 msgid "Controller"
 msgstr ""
 
-#: src/Widgets/Device.vala:251
+#: src/Widgets/Device.vala:243
 msgid "Keyboard"
 msgstr ""
 
-#: src/Widgets/Device.vala:254
+#: src/Widgets/Device.vala:246
 msgid "Mouse"
 msgstr ""
 
-#: src/Widgets/Device.vala:257
+#: src/Widgets/Device.vala:249
 msgid "Tablet"
 msgstr ""
 
-#: src/Widgets/Device.vala:260
+#: src/Widgets/Device.vala:252
 msgid "Touchpad"
 msgstr ""
 
-#: src/Widgets/Device.vala:263
+#: src/Widgets/Device.vala:255
 msgid "Phone"
 msgstr ""
 
-#: src/Widgets/Device.vala:277
+#: src/Widgets/Device.vala:269
 msgid "Connected"
 msgstr ""
 
-#: src/Widgets/DisplayWidget.vala:80
+#: src/Widgets/DisplayWidget.vala:72
 msgid "Middle-click to turn Bluetooth off"
 msgstr ""
 
-#: src/Widgets/DisplayWidget.vala:83
+#: src/Widgets/DisplayWidget.vala:75
 msgid "Bluetooth connected"
 msgstr ""
 
-#: src/Widgets/DisplayWidget.vala:86
+#: src/Widgets/DisplayWidget.vala:78
 msgid "Bluetooth is on"
 msgstr ""
 
-#: src/Widgets/DisplayWidget.vala:91
+#: src/Widgets/DisplayWidget.vala:83
 msgid "Bluetooth is off"
 msgstr ""
 
-#: src/Widgets/DisplayWidget.vala:92
+#: src/Widgets/DisplayWidget.vala:84
 msgid "Middle-click to turn Bluetooth on"
 msgstr ""
 
-#: src/Widgets/PopoverWidget.vala:44
+#: src/Widgets/PopoverWidget.vala:32
 msgid "Bluetooth"
 msgstr ""
 
-#: src/Widgets/PopoverWidget.vala:71
+#: src/Widgets/PopoverWidget.vala:61
 msgid "Bluetooth Settings…"
 msgstr ""

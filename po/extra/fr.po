@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-24 18:13+0000\n"
+"POT-Creation-Date: 2025-08-12 16:06+0000\n"
 "PO-Revision-Date: 2021-08-26 12:26+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/wingpanel/"
@@ -26,6 +26,10 @@ msgstr "Indicateur Bluetooth"
 #: data/bluetooth.metainfo.xml.in:13
 msgid "Connect and disconnect paired Bluetooth devices"
 msgstr "Connectez et déconnectez des périphériques Bluetooth appairés"
+
+#: data/bluetooth.metainfo.xml.in:28
+msgid "elementary, Inc."
+msgstr "elementary, Inc."
 
 #: data/bluetooth.metainfo.xml.in:36 data/bluetooth.metainfo.xml.in:48
 #: data/bluetooth.metainfo.xml.in:60 data/bluetooth.metainfo.xml.in:75
@@ -61,6 +65,3 @@ msgstr "Ajout d'un nom de périphérique par défaut pour les écouteurs"
 
 #~ msgid "Use device type as fallback instead of \"(null)\""
 #~ msgstr "Utilisation du type de périphérique plutôt que « (null) »"
-
-#~ msgid "elementary, Inc."
-#~ msgstr "elementary, Inc."

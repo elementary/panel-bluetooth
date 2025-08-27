@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-24 18:13+0000\n"
+"POT-Creation-Date: 2025-08-12 16:06+0000\n"
 "PO-Revision-Date: 2024-07-22 09:16+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementary.io/projects/wingpanel/"
@@ -26,6 +26,10 @@ msgstr "מחוון בלוטות׳"
 #: data/bluetooth.metainfo.xml.in:13
 msgid "Connect and disconnect paired Bluetooth devices"
 msgstr "חיבור וניתוק התקני בלוטות׳ מצומדים"
+
+#: data/bluetooth.metainfo.xml.in:28
+msgid "elementary, Inc."
+msgstr "elementary בע״מ"
 
 #: data/bluetooth.metainfo.xml.in:36 data/bluetooth.metainfo.xml.in:48
 #: data/bluetooth.metainfo.xml.in:60 data/bluetooth.metainfo.xml.in:75
@@ -58,6 +62,3 @@ msgstr "הוספת שם מכשיר כגיבוי לאוזניות"
 
 #~ msgid "Use device type as fallback instead of \"(null)\""
 #~ msgstr "להשתמש בסוג ההתקן אם לא זוהה במקום ב־„(ריק)”"
-
-#~ msgid "elementary, Inc."
-#~ msgstr "elementary בע״מ"

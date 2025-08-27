@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-24 18:13+0000\n"
+"POT-Creation-Date: 2025-08-12 16:06+0000\n"
 "PO-Revision-Date: 2025-07-27 21:55+0000\n"
 "Last-Translator: Guilherme Faura <guilhermefaura@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.elementaryos.org/projects/"
@@ -26,6 +26,10 @@ msgstr "Indicador Bluetooth"
 #: data/bluetooth.metainfo.xml.in:13
 msgid "Connect and disconnect paired Bluetooth devices"
 msgstr "Conectar e desconectar dispositivos bluetooth emparelhados"
+
+#: data/bluetooth.metainfo.xml.in:28
+msgid "elementary, Inc."
+msgstr "elementary, Inc."
 
 #: data/bluetooth.metainfo.xml.in:36 data/bluetooth.metainfo.xml.in:48
 #: data/bluetooth.metainfo.xml.in:60 data/bluetooth.metainfo.xml.in:75
@@ -51,6 +55,3 @@ msgstr "Adicionar dica de ferramenta ao passar o mouse"
 #: data/bluetooth.metainfo.xml.in:86
 msgid "Add a fallback device name for headphones"
 msgstr "Adicionar um nome de dispositivo de reserva para fones de ouvido"
-
-#~ msgid "elementary, Inc."
-#~ msgstr "elementary, Inc."

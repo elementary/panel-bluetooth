@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-24 18:13+0000\n"
+"POT-Creation-Date: 2025-08-12 16:06+0000\n"
 "PO-Revision-Date: 2022-12-10 05:25+0000\n"
 "Last-Translator: colindemian <colindemian@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
@@ -15,98 +15,98 @@ msgstr ""
 "X-Generator: Weblate 4.14.2\n"
 "X-Launchpad-Export-Date: 2017-04-05 07:48+0000\n"
 
-#: src/Widgets/Device.vala:54 src/Widgets/Device.vala:280
+#: src/Widgets/Device.vala:42 src/Widgets/Device.vala:272
 msgid "Not Connected"
 msgstr "未连接"
 
-#: src/Widgets/Device.vala:165
+#: src/Widgets/Device.vala:157
 #, c-format
 msgid "<b>Filename</b>: %s"
 msgstr "<b>文件名称</b>： %s"
 
-#: src/Widgets/Device.vala:170
+#: src/Widgets/Device.vala:162
 #, c-format
 msgid "Receiving… %s of %s"
 msgstr "正在接收… %s / %s"
 
-#: src/Widgets/Device.vala:174
+#: src/Widgets/Device.vala:166
 #, c-format
 msgid "Sending… %s of %s"
 msgstr "正在发送… %s / %s"
 
-#: src/Widgets/Device.vala:221
+#: src/Widgets/Device.vala:213
 msgid "Connecting…"
 msgstr "连接中…"
 
-#: src/Widgets/Device.vala:224
+#: src/Widgets/Device.vala:216
 msgid "Disconnecting…"
 msgstr "断开中…"
 
-#: src/Widgets/Device.vala:229
+#: src/Widgets/Device.vala:221
 msgid "Unable to Connect"
 msgstr "无法连接"
 
-#: src/Widgets/Device.vala:242
+#: src/Widgets/Device.vala:234
 msgid "Speaker"
 msgstr "扬声器"
 
-#: src/Widgets/Device.vala:245
+#: src/Widgets/Device.vala:237
 msgid "Headphones"
 msgstr "耳机"
 
-#: src/Widgets/Device.vala:248
+#: src/Widgets/Device.vala:240
 msgid "Controller"
 msgstr "控制器"
 
-#: src/Widgets/Device.vala:251
+#: src/Widgets/Device.vala:243
 msgid "Keyboard"
 msgstr "键盘"
 
-#: src/Widgets/Device.vala:254
+#: src/Widgets/Device.vala:246
 msgid "Mouse"
 msgstr "鼠标"
 
-#: src/Widgets/Device.vala:257
+#: src/Widgets/Device.vala:249
 msgid "Tablet"
 msgstr "写字板"
 
-#: src/Widgets/Device.vala:260
+#: src/Widgets/Device.vala:252
 msgid "Touchpad"
 msgstr "触控板"
 
-#: src/Widgets/Device.vala:263
+#: src/Widgets/Device.vala:255
 msgid "Phone"
 msgstr "手机"
 
-#: src/Widgets/Device.vala:277
+#: src/Widgets/Device.vala:269
 msgid "Connected"
 msgstr "已连接"
 
-#: src/Widgets/DisplayWidget.vala:80
+#: src/Widgets/DisplayWidget.vala:72
 msgid "Middle-click to turn Bluetooth off"
 msgstr "点按鼠标中键可关闭蓝牙"
 
-#: src/Widgets/DisplayWidget.vala:83
+#: src/Widgets/DisplayWidget.vala:75
 msgid "Bluetooth connected"
 msgstr "蓝牙已连接"
 
-#: src/Widgets/DisplayWidget.vala:86
+#: src/Widgets/DisplayWidget.vala:78
 msgid "Bluetooth is on"
 msgstr "蓝牙已打开"
 
-#: src/Widgets/DisplayWidget.vala:91
+#: src/Widgets/DisplayWidget.vala:83
 msgid "Bluetooth is off"
 msgstr "蓝牙已关闭"
 
-#: src/Widgets/DisplayWidget.vala:92
+#: src/Widgets/DisplayWidget.vala:84
 msgid "Middle-click to turn Bluetooth on"
 msgstr "点按鼠标中键可开启蓝牙"
 
-#: src/Widgets/PopoverWidget.vala:44
+#: src/Widgets/PopoverWidget.vala:32
 msgid "Bluetooth"
 msgstr "蓝牙"
 
-#: src/Widgets/PopoverWidget.vala:71
+#: src/Widgets/PopoverWidget.vala:61
 msgid "Bluetooth Settings…"
 msgstr "蓝牙设置…"
 

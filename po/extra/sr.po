@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-24 18:13+0000\n"
+"POT-Creation-Date: 2025-08-12 16:06+0000\n"
 "PO-Revision-Date: 2024-08-07 18:16+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Serbian <https://l10n.elementary.io/projects/wingpanel/"
@@ -29,6 +29,10 @@ msgstr "Блутут указивач"
 #| msgid "Connect and disconnect paired bluetooth devices"
 msgid "Connect and disconnect paired Bluetooth devices"
 msgstr "Повежите и прекините везу упарених блутут уређаја"
+
+#: data/bluetooth.metainfo.xml.in:28
+msgid "elementary, Inc."
+msgstr "elementary, Inc."
 
 #: data/bluetooth.metainfo.xml.in:36 data/bluetooth.metainfo.xml.in:48
 #: data/bluetooth.metainfo.xml.in:60 data/bluetooth.metainfo.xml.in:75
@@ -63,6 +67,3 @@ msgstr ""
 #~| msgid "Fallback device names to their device type instead of \"(null)\""
 #~ msgid "Use device type as fallback instead of \"(null)\""
 #~ msgstr "Враћа називе уређаја на њихове врсте уређаја уместо на „(ништа)“"
-
-#~ msgid "elementary, Inc."
-#~ msgstr "elementary, Inc."

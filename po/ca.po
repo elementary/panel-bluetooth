@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-24 18:13+0000\n"
+"POT-Creation-Date: 2025-08-12 16:06+0000\n"
 "PO-Revision-Date: 2022-10-29 01:59+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.elementary.io/projects/wingpanel/"
@@ -15,98 +15,98 @@ msgstr ""
 "X-Generator: Weblate 4.4.2\n"
 "X-Launchpad-Export-Date: 2017-04-05 07:48+0000\n"
 
-#: src/Widgets/Device.vala:54 src/Widgets/Device.vala:280
+#: src/Widgets/Device.vala:42 src/Widgets/Device.vala:272
 msgid "Not Connected"
 msgstr "No connectat"
 
-#: src/Widgets/Device.vala:165
+#: src/Widgets/Device.vala:157
 #, c-format
 msgid "<b>Filename</b>: %s"
 msgstr "<b>Nom del fitxer</b>: %s"
 
-#: src/Widgets/Device.vala:170
+#: src/Widgets/Device.vala:162
 #, c-format
 msgid "Receiving… %s of %s"
 msgstr "Es rep... %s de %s"
 
-#: src/Widgets/Device.vala:174
+#: src/Widgets/Device.vala:166
 #, c-format
 msgid "Sending… %s of %s"
 msgstr "S'envia… %s de %s"
 
-#: src/Widgets/Device.vala:221
+#: src/Widgets/Device.vala:213
 msgid "Connecting…"
 msgstr "Es connecta…"
 
-#: src/Widgets/Device.vala:224
+#: src/Widgets/Device.vala:216
 msgid "Disconnecting…"
 msgstr "Es desconnecta…"
 
-#: src/Widgets/Device.vala:229
+#: src/Widgets/Device.vala:221
 msgid "Unable to Connect"
 msgstr "No es pot connectar"
 
-#: src/Widgets/Device.vala:242
+#: src/Widgets/Device.vala:234
 msgid "Speaker"
 msgstr "Altaveu"
 
-#: src/Widgets/Device.vala:245
+#: src/Widgets/Device.vala:237
 msgid "Headphones"
 msgstr "Auriculars"
 
-#: src/Widgets/Device.vala:248
+#: src/Widgets/Device.vala:240
 msgid "Controller"
 msgstr "Controlador"
 
-#: src/Widgets/Device.vala:251
+#: src/Widgets/Device.vala:243
 msgid "Keyboard"
 msgstr "Teclat"
 
-#: src/Widgets/Device.vala:254
+#: src/Widgets/Device.vala:246
 msgid "Mouse"
 msgstr "Ratolí"
 
-#: src/Widgets/Device.vala:257
+#: src/Widgets/Device.vala:249
 msgid "Tablet"
 msgstr "Tauleta"
 
-#: src/Widgets/Device.vala:260
+#: src/Widgets/Device.vala:252
 msgid "Touchpad"
 msgstr "Ratolí tàctil"
 
-#: src/Widgets/Device.vala:263
+#: src/Widgets/Device.vala:255
 msgid "Phone"
 msgstr "Telèfon"
 
-#: src/Widgets/Device.vala:277
+#: src/Widgets/Device.vala:269
 msgid "Connected"
 msgstr "Connectat"
 
-#: src/Widgets/DisplayWidget.vala:80
+#: src/Widgets/DisplayWidget.vala:72
 msgid "Middle-click to turn Bluetooth off"
 msgstr "Clic del mig per desactivar el bluetooth"
 
-#: src/Widgets/DisplayWidget.vala:83
+#: src/Widgets/DisplayWidget.vala:75
 msgid "Bluetooth connected"
 msgstr "Bluetooth connectat"
 
-#: src/Widgets/DisplayWidget.vala:86
+#: src/Widgets/DisplayWidget.vala:78
 msgid "Bluetooth is on"
 msgstr "Bluetooth actiu"
 
-#: src/Widgets/DisplayWidget.vala:91
+#: src/Widgets/DisplayWidget.vala:83
 msgid "Bluetooth is off"
 msgstr "Bluetooth inactiu"
 
-#: src/Widgets/DisplayWidget.vala:92
+#: src/Widgets/DisplayWidget.vala:84
 msgid "Middle-click to turn Bluetooth on"
 msgstr "Clic del mig per activar el bluetooth"
 
-#: src/Widgets/PopoverWidget.vala:44
+#: src/Widgets/PopoverWidget.vala:32
 msgid "Bluetooth"
 msgstr "Bluetooth"
 
-#: src/Widgets/PopoverWidget.vala:71
+#: src/Widgets/PopoverWidget.vala:61
 msgid "Bluetooth Settings…"
 msgstr "Paràmetres del Bluetooth…"
 

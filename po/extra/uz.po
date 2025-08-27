@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-24 18:13+0000\n"
+"POT-Creation-Date: 2025-08-12 16:06+0000\n"
 "PO-Revision-Date: 2024-08-07 18:16+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Uzbek <https://l10n.elementary.io/projects/wingpanel/"
@@ -28,6 +28,10 @@ msgstr "Bluetooth indikatori"
 #| msgid "Connect and disconnect paired bluetooth devices"
 msgid "Connect and disconnect paired Bluetooth devices"
 msgstr "Avval ulangan blutetooth qurilmalariga ulanish yoki aloqani uzish"
+
+#: data/bluetooth.metainfo.xml.in:28
+msgid "elementary, Inc."
+msgstr "elementary Inc."
 
 #: data/bluetooth.metainfo.xml.in:36 data/bluetooth.metainfo.xml.in:48
 #: data/bluetooth.metainfo.xml.in:60 data/bluetooth.metainfo.xml.in:75
@@ -51,6 +55,3 @@ msgstr ""
 #: data/bluetooth.metainfo.xml.in:86
 msgid "Add a fallback device name for headphones"
 msgstr ""
-
-#~ msgid "elementary, Inc."
-#~ msgstr "elementary Inc."
