@@ -41,9 +41,7 @@ public class BluetoothIndicator.Widgets.PopoverWidget : Gtk.Box {
     construct {
         orientation = Gtk.Orientation.VERTICAL;
 
-        main_switch = new Granite.SwitchModelButton (_("Bluetooth")) {
-            active = object_manager.get_global_state ()
-        };
+        main_switch = new Granite.SwitchModelButton (_("Bluetooth"));
         main_switch.get_style_context ().add_class (Granite.STYLE_CLASS_H4_LABEL);
 
         devices_list = new Gtk.ListBox ();
@@ -82,8 +80,6 @@ public class BluetoothIndicator.Widgets.PopoverWidget : Gtk.Box {
             add (show_settings_button);
         }
 
-        main_switch.active = object_manager.get_global_state ();
-
         update_ui_state (object_manager.get_global_state ());
         show_all ();
 
@@ -91,10 +87,7 @@ public class BluetoothIndicator.Widgets.PopoverWidget : Gtk.Box {
             ((Widgets.Device) row).toggle_device.begin ();
         });
 
-        main_switch.notify["active"].connect (() => {
-            warning ("main switch toggle - active %s", main_switch.active.to_string ());
-            object_manager.settings.set_boolean ("bluetooth-enabled", main_switch.active);
-        });
+        object_manager.settings.bind ("enabled", main_switch, "active", DEFAULT);
 
         show_settings_button.clicked.connect (() => {
             try {

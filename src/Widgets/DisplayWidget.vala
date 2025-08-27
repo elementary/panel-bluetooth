@@ -19,6 +19,7 @@ public class BluetoothIndicator.Widgets.DisplayWidget : Gtk.Spinner {
     public BluetoothIndicator.Services.ObjectManager object_manager { get; construct; }
 
     private unowned Gtk.StyleContext style_context;
+    private Gtk.GestureMultiPress gesture_click;
 
     public DisplayWidget (BluetoothIndicator.Services.ObjectManager object_manager) {
         Object (object_manager: object_manager);
@@ -47,16 +48,17 @@ public class BluetoothIndicator.Widgets.DisplayWidget : Gtk.Spinner {
             object_manager.notify["retrieve-finished"].connect (set_icon);
         }
 
-        button_press_event.connect ((e) => {
-            if (e.button == Gdk.BUTTON_MIDDLE) {
-                object_manager.settings.set_boolean (
-                    "bluetooth-enabled",
-                    !object_manager.settings.get_boolean ("bluetooth-enabled")
-                );
-                return Gdk.EVENT_STOP;
-            }
+        gesture_click = new Gtk.GestureMultiPress (this) {
+            button = Gdk.BUTTON_MIDDLE
+        };
+        gesture_click.pressed.connect (() => {
+            object_manager.settings.set_boolean (
+                "enabled",
+                !object_manager.settings.get_boolean ("enabled")
+            );
 
-            return Gdk.EVENT_PROPAGATE;
+            gesture_click.set_state (CLAIMED);
+            gesture_click.reset ();
         });
     }
 
