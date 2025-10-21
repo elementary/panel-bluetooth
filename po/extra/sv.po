@@ -8,46 +8,50 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-12 16:06+0000\n"
-"PO-Revision-Date: 2019-11-07 13:58-0800\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-10-22 05:31+0000\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"Language-Team: Swedish <https://l10n.elementaryos.org/projects/wingpanel/"
+"indicator-bluetooth-extra/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: data/bluetooth.metainfo.xml.in:12
 msgid "Bluetooth Indicator"
-msgstr ""
+msgstr "Bluetooth-indikator"
 
 #: data/bluetooth.metainfo.xml.in:13
 msgid "Connect and disconnect paired Bluetooth devices"
-msgstr ""
+msgstr "Anslut och koppla från parkopplade Bluetooth-enheter"
 
 #: data/bluetooth.metainfo.xml.in:28
 msgid "elementary, Inc."
-msgstr ""
+msgstr "elementary, Inc."
 
 #: data/bluetooth.metainfo.xml.in:36 data/bluetooth.metainfo.xml.in:48
 #: data/bluetooth.metainfo.xml.in:60 data/bluetooth.metainfo.xml.in:75
 msgid "Minor updates:"
-msgstr ""
+msgstr "Mindre uppdateringar:"
 
 #: data/bluetooth.metainfo.xml.in:38 data/bluetooth.metainfo.xml.in:50
 #: data/bluetooth.metainfo.xml.in:62 data/bluetooth.metainfo.xml.in:78
 #: data/bluetooth.metainfo.xml.in:87
 msgid "Updated translations"
-msgstr ""
+msgstr "Uppdaterade översättningar"
 
 #: data/bluetooth.metainfo.xml.in:77
 msgid "Improve restoring Bluetooth state on restart and resuming from suspend"
 msgstr ""
+"Förbättrad återställning av Bluetooth-tillstånd vid omstart och "
+"återupptagning från viloläge"
 
 #: data/bluetooth.metainfo.xml.in:85
 msgid "Add tooltip on hover"
-msgstr ""
+msgstr "Lägg till verktygstips vid hovring"
 
 #: data/bluetooth.metainfo.xml.in:86
 msgid "Add a fallback device name for headphones"
-msgstr ""
+msgstr "Lägg till ett reservnamn på enheten för hörlurar"
