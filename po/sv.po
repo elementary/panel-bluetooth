@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-12 16:06+0000\n"
-"PO-Revision-Date: 2025-10-22 09:29+0000\n"
+"PO-Revision-Date: 2025-10-22 09:59+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://l10n.elementaryos.org/projects/wingpanel/"
 "wingpanel-indicator-bluetooth/sv/>\n"
@@ -22,17 +22,17 @@ msgstr "Inte ansluten"
 #: src/Widgets/Device.vala:157
 #, c-format
 msgid "<b>Filename</b>: %s"
-msgstr ""
+msgstr "<b>Filnamn</b>: %s"
 
 #: src/Widgets/Device.vala:162
 #, c-format
 msgid "Receiving… %s of %s"
-msgstr ""
+msgstr "Mottagande... %s av %s"
 
 #: src/Widgets/Device.vala:166
 #, c-format
 msgid "Sending… %s of %s"
-msgstr ""
+msgstr "Skickar... %s av %s"
 
 #: src/Widgets/Device.vala:213
 msgid "Connecting…"
@@ -48,11 +48,11 @@ msgstr "Kunde inte ansluta"
 
 #: src/Widgets/Device.vala:234
 msgid "Speaker"
-msgstr ""
+msgstr "Högtalare"
 
 #: src/Widgets/Device.vala:237
 msgid "Headphones"
-msgstr ""
+msgstr "Hörlurar"
 
 #: src/Widgets/Device.vala:240
 msgid "Controller"
@@ -68,11 +68,11 @@ msgstr "Mus"
 
 #: src/Widgets/Device.vala:249
 msgid "Tablet"
-msgstr "Surfplatta"
+msgstr "Ritplatta"
 
 #: src/Widgets/Device.vala:252
 msgid "Touchpad"
-msgstr ""
+msgstr "Pekplatta"
 
 #: src/Widgets/Device.vala:255
 msgid "Phone"
@@ -84,29 +84,23 @@ msgstr "Ansluten"
 
 #: src/Widgets/DisplayWidget.vala:72
 msgid "Middle-click to turn Bluetooth off"
-msgstr ""
+msgstr "Mittenklicka för att inaktivera Bluetooth"
 
 #: src/Widgets/DisplayWidget.vala:75
-#, fuzzy
-#| msgid "Not Connected"
 msgid "Bluetooth connected"
-msgstr "Inte ansluten"
+msgstr "Bluetooth ansluten"
 
 #: src/Widgets/DisplayWidget.vala:78
-#, fuzzy
-#| msgid "Bluetooth"
 msgid "Bluetooth is on"
-msgstr "Bluetooth"
+msgstr "Bluetooth är påslagen"
 
 #: src/Widgets/DisplayWidget.vala:83
-#, fuzzy
-#| msgid "Bluetooth"
 msgid "Bluetooth is off"
-msgstr "Bluetooth"
+msgstr "Bluetooth är avstängt"
 
 #: src/Widgets/DisplayWidget.vala:84
 msgid "Middle-click to turn Bluetooth on"
-msgstr ""
+msgstr "Mittenklicka för att aktivera Bluetooth"
 
 #: src/Widgets/PopoverWidget.vala:32
 msgid "Bluetooth"
