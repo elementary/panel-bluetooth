@@ -3,9 +3,9 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-12 16:06+0000\n"
-"PO-Revision-Date: 2024-08-07 18:16+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
-"Language-Team: Slovenian <https://l10n.elementary.io/projects/wingpanel/"
+"PO-Revision-Date: 2026-01-19 15:55+0000\n"
+"Last-Translator: Jernej Virag <jernej@virag.si>\n"
+"Language-Team: Slovenian <https://l10n.elementaryos.org/projects/wingpanel/"
 "wingpanel-indicator-bluetooth/sl/>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
 "n%100==4 ? 2 : 3;\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Weblate 5.11.4\n"
 "X-Launchpad-Export-Date: 2017-04-05 07:48+0000\n"
 
 #: src/Widgets/Device.vala:42 src/Widgets/Device.vala:272
@@ -23,17 +23,17 @@ msgstr "Brez povezave"
 #: src/Widgets/Device.vala:157
 #, c-format
 msgid "<b>Filename</b>: %s"
-msgstr ""
+msgstr "<b>Ime datoteke</b>: %s"
 
 #: src/Widgets/Device.vala:162
 #, c-format
 msgid "Receiving… %s of %s"
-msgstr ""
+msgstr "Sprejemam… %s od %s"
 
 #: src/Widgets/Device.vala:166
 #, c-format
 msgid "Sending… %s of %s"
-msgstr ""
+msgstr "Pošiljam… %s of %s"
 
 #: src/Widgets/Device.vala:213
 msgid "Connecting…"
@@ -49,15 +49,15 @@ msgstr "Povezave ni bilo mogoče vzpostaviti"
 
 #: src/Widgets/Device.vala:234
 msgid "Speaker"
-msgstr ""
+msgstr "Zvočnik"
 
 #: src/Widgets/Device.vala:237
 msgid "Headphones"
-msgstr ""
+msgstr "Slušalke"
 
 #: src/Widgets/Device.vala:240
 msgid "Controller"
-msgstr ""
+msgstr "Krmilnik"
 
 #: src/Widgets/Device.vala:243
 msgid "Keyboard"
@@ -73,7 +73,7 @@ msgstr "Tablica"
 
 #: src/Widgets/Device.vala:252
 msgid "Touchpad"
-msgstr ""
+msgstr "Sledilna ploščica"
 
 #: src/Widgets/Device.vala:255
 msgid "Phone"
@@ -85,29 +85,23 @@ msgstr "Povezava vzpostavljena"
 
 #: src/Widgets/DisplayWidget.vala:72
 msgid "Middle-click to turn Bluetooth off"
-msgstr ""
+msgstr "Srednji klik za izklop Bluetootha"
 
 #: src/Widgets/DisplayWidget.vala:75
-#, fuzzy
-#| msgid "Not Connected"
 msgid "Bluetooth connected"
-msgstr "Brez povezave"
+msgstr "Bluetooth povezan"
 
 #: src/Widgets/DisplayWidget.vala:78
-#, fuzzy
-#| msgid "Bluetooth"
 msgid "Bluetooth is on"
-msgstr "Bluetooth"
+msgstr "Bluetooth je vklopljen"
 
 #: src/Widgets/DisplayWidget.vala:83
-#, fuzzy
-#| msgid "Bluetooth"
 msgid "Bluetooth is off"
-msgstr "Bluetooth"
+msgstr "Bluetooth je izklopljen"
 
 #: src/Widgets/DisplayWidget.vala:84
 msgid "Middle-click to turn Bluetooth on"
-msgstr ""
+msgstr "Srednji klik za vklop Bluetootha"
 
 #: src/Widgets/PopoverWidget.vala:32
 msgid "Bluetooth"
@@ -115,7 +109,7 @@ msgstr "Bluetooth"
 
 #: src/Widgets/PopoverWidget.vala:61
 msgid "Bluetooth Settings…"
-msgstr "Nastavitve Bluetooth…"
+msgstr "Nastavitve Bluetootha…"
 
 #, fuzzy
 #~| msgid "Bluetooth"
