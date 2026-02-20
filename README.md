@@ -11,7 +11,7 @@ You'll need the following dependencies:
     gobject-introspection
     libglib2.0-dev
     libgranite-7-dev >= 7.0.0
-    libwingpanel-8-dev
+    libwingpanel-9-dev
     meson >= 0.58.0
     valac
 
