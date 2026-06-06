@@ -3,9 +3,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-12 16:06+0000\n"
-"PO-Revision-Date: 2019-08-29 17:23+0000\n"
-"Last-Translator: Moo <hazap@hotmail.com>\n"
-"Language-Team: Lithuanian <https://l10n.elementary.io/projects/wingpanel/"
+"PO-Revision-Date: 2026-06-07 05:56+0000\n"
+"Last-Translator: Automatic translation add-on <noreply-addon-"
+"autotranslate@weblate.org>\n"
+"Language-Team: Lithuanian <https://l10n.elementaryos.org/projects/wingpanel/"
 "wingpanel-indicator-bluetooth/lt/>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
@@ -14,7 +15,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > "
 "19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? "
 "1 : 2);\n"
-"X-Generator: Weblate 3.7.1\n"
+"X-Generator: Weblate 2026.5\n"
 "X-Launchpad-Export-Date: 2017-04-05 07:48+0000\n"
 
 #: src/Widgets/Device.vala:42 src/Widgets/Device.vala:272
@@ -62,15 +63,15 @@ msgstr ""
 
 #: src/Widgets/Device.vala:243
 msgid "Keyboard"
-msgstr ""
+msgstr "Klaviatūra"
 
 #: src/Widgets/Device.vala:246
 msgid "Mouse"
-msgstr ""
+msgstr "Pelė"
 
 #: src/Widgets/Device.vala:249
 msgid "Tablet"
-msgstr ""
+msgstr "Planšetė"
 
 #: src/Widgets/Device.vala:252
 msgid "Touchpad"
@@ -78,7 +79,7 @@ msgstr ""
 
 #: src/Widgets/Device.vala:255
 msgid "Phone"
-msgstr ""
+msgstr "Telefonas"
 
 #: src/Widgets/Device.vala:269
 msgid "Connected"
