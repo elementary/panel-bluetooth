@@ -4,7 +4,7 @@
 */
 
 public class Granite.Symbol : Granite.Bin {
-    public interface State {
+    public sealed interface State {
         public const string NORMAL = "normal";
         public const string DISABLED = "disabled";
         public const string CHECKED = "checked";
