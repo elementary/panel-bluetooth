@@ -12,6 +12,7 @@
           id='path2'
           class=''
           color='rgb(190,190,190)'
+          mask='url(#mask1)'
           fill='url(#gpa:foreground) rgb(0,0,0)'
           fill-opacity='1'
           fill-rule='nonzero'
@@ -20,28 +21,6 @@
           gpa:states='state0 state1 state2'
           gpa:animation-repeat='0'
           gpa:animation-segment='0'>
-          <animate
-            id='to-disabled'
-            attributeName='opacity'
-            begin='StateChange(state0, state1); StateChange(state2, state1)'
-            end='indefinite'
-            dur='150ms'
-            repeatCount='1'
-            fill='freeze'
-            from='1'
-            to='0.5'
-            keyTimes='0; 1'/>
-          <animate
-            id='opacity-to-initial'
-            attributeName='opacity'
-            begin='StateChange(state1, state0); StateChange(state2, state2)'
-            end='indefinite'
-            dur='150ms'
-            repeatCount='1'
-            fill='freeze'
-            from='0.5'
-            to='1'
-            keyTimes='0; 1'/>
   </path>
   <line
           id='slash'
@@ -68,6 +47,7 @@
   <path
           id='path846'
           class=''
+          visibility='hidden'
           fill='url(#gpa:foreground) rgb(0,0,0)'
           fill-opacity='0.5'
           fill-rule='nonzero'
@@ -75,8 +55,70 @@
           gpa:states='state2'
           gpa:transition-type='fade'
           gpa:transition-easing='ease-in-out'
-          gpa:transition-duration='300ms'
+          gpa:transition-duration='200ms'
           gpa:animation-repeat='0'
           gpa:animation-segment='0'>
   </path>
+  <mask
+          id='mask1'
+          opacity='1'>
+    <rect
+            id='bg'
+            class=''
+            fill='rgb(255,255,255)'
+            x='0'
+            y='0'
+            width='100%'
+            height='100%'>
+    </rect>
+    <line
+            id='slash-clip'
+            class=''
+            visibility='hidden'
+            clip-path='url(#clipPath1)'
+            fill='rgb(0,0,0)'
+            stroke='url(#gpa:foreground) rgb(0,0,0)'
+            stroke-opacity='1'
+            stroke-width='1.25'
+            stroke-linecap='round'
+            stroke-linejoin='round'
+            stroke-miterlimit='4'
+            x1='6.045'
+            y1='7.045'
+            x2='19.2458'
+            y2='20.23'
+            gpa:stroke-minwidth='25%'
+            gpa:stroke-maxwidth='200%'
+            gpa:states='state1'
+            gpa:transition-type='animate'
+            gpa:transition-easing='ease-in-out'
+            gpa:transition-duration='200ms'>
+    </line>
+    <rect
+            id='rect1'
+            class=''
+            visibility='hidden'
+            opacity='0.5'
+            fill='rgba(0,0,0,0.45)'
+            fill-opacity='1'
+            fill-rule='nonzero'
+            stroke-opacity='1'
+            stroke-width='2'
+            stroke-linecap='butt'
+            stroke-linejoin='miter'
+            stroke-miterlimit='4'
+            x='0'
+            y='0'
+            width='100%'
+            height='100%'
+            rx='1'
+            ry='1'
+            gpa:stroke-minwidth='25%'
+            gpa:stroke-maxwidth='150%'
+            gpa:states='state1'
+            gpa:transition-type='fade'
+            gpa:transition-easing='ease-in-out'
+            gpa:transition-duration='200ms'>
+    </rect>
+  </mask>
 </svg>
