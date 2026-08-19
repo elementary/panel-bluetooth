@@ -1,0 +1,82 @@
+<svg
+        xmlns='http://www.w3.org/2000/svg'
+        xmlns:svg='http://www.w3.org/2000/svg'
+        xmlns:gpa='https://www.gtk.org/grappa'
+        gpa:version='1'
+        gpa:state-names='state0 state1 state2'
+        gpa:state='0'
+        id='svg6'
+        width='24'
+        height='24'>
+  <path
+          id='path2'
+          class=''
+          color='rgb(190,190,190)'
+          fill='url(#gpa:foreground) rgb(0,0,0)'
+          fill-opacity='1'
+          fill-rule='nonzero'
+          overflow='visible'
+          d='M 11.5 5 C 11.223 5, 11 5.223, 11 5.5 L 11 10.375 L 9.281 8.875 C 8.968 8.602, 8.523 8.655, 8.251 8.969 A 0.753 0.753 0 0 0 8.313 10.031 L 10.563 12 L 8.313 13.969 A 0.753 0.753 0 0 0 8.25 15.031 C 8.523 15.344, 8.968 15.398, 9.281 15.125 L 11.001 13.625 L 11.001 18.5 C 11.001 18.777, 11.223 19, 11.501 19 C 11.783 19, 11.938 18.98, 12.156 18.812 L 15.688 15.656 A 0.78 0.78 0 0 0 15.906 15.281 A 0.745 0.745 0 0 0 15.938 15 A 0.723 0.723 0 0 0 15.906 14.844 A 0.78 0.78 0 0 0 15.688 14.469 L 12.875 11.999 L 15.688 9.531 A 0.78 0.78 0 0 0 15.906 9.156 A 0.71 0.71 0 0 0 15.906 8.719 A 0.78 0.78 0 0 0 15.688 8.344 L 12.156 5.187 C 11.957 5.027, 11.729 5, 11.5 5 Z M 12 7.063 L 14.094 8.938 L 12 10.75 Z M 12 13.25 L 14.094 15.063 L 12 16.938 Z'
+          gpa:states='state0 state1 state2'
+          gpa:animation-repeat='0'
+          gpa:animation-segment='0'>
+          <animate
+            id='to-disabled'
+            attributeName='opacity'
+            begin='StateChange(state0, state1); StateChange(state2, state1)'
+            end='indefinite'
+            dur='150ms'
+            repeatCount='1'
+            fill='freeze'
+            from='1'
+            to='0.5'
+            keyTimes='0; 1'/>
+          <animate
+            id='opacity-to-initial'
+            attributeName='opacity'
+            begin='StateChange(state1, state0); StateChange(state2, state2)'
+            end='indefinite'
+            dur='150ms'
+            repeatCount='1'
+            fill='freeze'
+            from='0.5'
+            to='1'
+            keyTimes='0; 1'/>
+  </path>
+  <line
+          id='slash'
+          class='transparent-fill'
+          visibility='hidden'
+          fill='none'
+          stroke='url(#gpa:foreground) rgb(0,0,0)'
+          stroke-opacity='1'
+          stroke-width='1.25'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+          stroke-miterlimit='4'
+          x1='6.045'
+          y1='5.42123'
+          x2='19.2458'
+          y2='18.6085'
+          gpa:stroke-minwidth='25%'
+          gpa:stroke-maxwidth='200%'
+          gpa:states='state1'
+          gpa:transition-type='animate'
+          gpa:transition-easing='ease-in-out'
+          gpa:transition-duration='200ms'>
+  </line>
+  <path
+          id='path846'
+          class=''
+          fill='url(#gpa:foreground) rgb(0,0,0)'
+          fill-opacity='0.5'
+          fill-rule='nonzero'
+          d='M 6.31836 5 C 6.04055 5.00054, 5.78575 5.15461, 5.65625 5.40039 L 5.6543 5.40039 C 4.56857 7.43076, 4.00036 9.69757, 4 12 C 4.00035 14.3024, 4.56859 16.5692, 5.6543 18.5996 L 5.65625 18.5996 C 5.78576 18.8454, 6.04053 18.9995, 6.31836 19 C 6.73257 19, 7.06836 18.6642, 7.06836 18.25 C 7.068 18.1251, 7.03645 18.0022, 6.97656 17.8926 C 6.00732 16.0797, 5.50016 14.0557, 5.5 12 C 5.50016 9.94428, 6.00733 7.92031, 6.97656 6.10742 C 7.03645 5.99779, 7.068 5.87493, 7.06836 5.75 C 7.06836 5.33579, 6.73257 5, 6.31836 5 Z M 17.6816 5 C 17.2674 5, 16.9316 5.33579, 16.9316 5.75 C 16.932 5.87493, 16.9636 5.99779, 17.0234 6.10742 C 17.9927 7.92031, 18.4998 9.94428, 18.5 12 C 18.4998 14.0557, 17.9927 16.0797, 17.0234 17.8926 C 16.9635 18.0022, 16.932 18.1251, 16.9316 18.25 C 16.9316 18.6642, 17.2674 19, 17.6816 19 C 17.9595 18.9995, 18.2142 18.8454, 18.3437 18.5996 L 18.3457 18.5996 C 19.4314 16.5692, 19.9997 14.3024, 20 12 C 19.9996 9.69757, 19.4314 7.43076, 18.3457 5.40039 L 18.3437 5.40039 C 18.2143 5.15461, 17.9594 5.00054, 17.6816 5 Z'
+          gpa:states='state2'
+          gpa:transition-type='fade'
+          gpa:transition-easing='ease-in-out'
+          gpa:transition-duration='300ms'
+          gpa:animation-repeat='0'
+          gpa:animation-segment='0'>
+  </path>
+</svg>

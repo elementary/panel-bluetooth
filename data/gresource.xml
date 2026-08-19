@@ -1,35 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gresources>
   <gresource prefix="/io/elementary/wingpanel/bluetooth">
-    <file alias="indicator.css" compressed="true">indicator.css</file>
-  </gresource>
-  <gresource prefix="/org/elementary/wingpanel/icons">
-    <file alias="24x24/status/indicator-bluetooth-active-symbolic.svg" compressed="true" preprocess="xml-stripblanks">icons/active.svg</file>
-    <file alias="24x24/status/indicator-bluetooth-disabled-symbolic.svg" compressed="true" preprocess="xml-stripblanks">icons/disabled.svg</file>
-    <file alias="24x24/status/indicator-bluetooth-paired-symbolic.svg" compressed="true" preprocess="xml-stripblanks">icons/paired.svg</file>
-
-    <file alias="24x24/status/indicator-bluetooth-disabled-10-symbolic.svg" compressed="true" preprocess="xml-stripblanks">icons/disabled-10.svg</file>
-    <file alias="24x24/status/indicator-bluetooth-disabled-20-symbolic.svg" compressed="true" preprocess="xml-stripblanks">icons/disabled-20.svg</file>
-    <file alias="24x24/status/indicator-bluetooth-disabled-30-symbolic.svg" compressed="true" preprocess="xml-stripblanks">icons/disabled-30.svg</file>
-    <file alias="24x24/status/indicator-bluetooth-disabled-40-symbolic.svg" compressed="true" preprocess="xml-stripblanks">icons/disabled-40.svg</file>
-    <file alias="24x24/status/indicator-bluetooth-disabled-50-symbolic.svg" compressed="true" preprocess="xml-stripblanks">icons/disabled-50.svg</file>
-    <file alias="24x24/status/indicator-bluetooth-disabled-60-symbolic.svg" compressed="true" preprocess="xml-stripblanks">icons/disabled-60.svg</file>
-    <file alias="24x24/status/indicator-bluetooth-disabled-70-symbolic.svg" compressed="true" preprocess="xml-stripblanks">icons/disabled-70.svg</file>
-    <file alias="24x24/status/indicator-bluetooth-disabled-80-symbolic.svg" compressed="true" preprocess="xml-stripblanks">icons/disabled-80.svg</file>
-    <file alias="24x24/status/indicator-bluetooth-disabled-90-symbolic.svg" compressed="true" preprocess="xml-stripblanks">icons/disabled-90.svg</file>
-
-    <file alias="24x24@2/status/indicator-bluetooth-active-symbolic.svg" compressed="true" preprocess="xml-stripblanks">icons/active.svg</file>
-    <file alias="24x24@2/status/indicator-bluetooth-disabled-symbolic.svg" compressed="true" preprocess="xml-stripblanks">icons/disabled.svg</file>
-    <file alias="24x24@2/status/indicator-bluetooth-paired-symbolic.svg" compressed="true" preprocess="xml-stripblanks">icons/paired.svg</file>
-
-    <file alias="24x24@2/status/indicator-bluetooth-disabled-10-symbolic.svg" compressed="true" preprocess="xml-stripblanks">icons/disabled-10.svg</file>
-    <file alias="24x24@2/status/indicator-bluetooth-disabled-20-symbolic.svg" compressed="true" preprocess="xml-stripblanks">icons/disabled-20.svg</file>
-    <file alias="24x24@2/status/indicator-bluetooth-disabled-30-symbolic.svg" compressed="true" preprocess="xml-stripblanks">icons/disabled-30.svg</file>
-    <file alias="24x24@2/status/indicator-bluetooth-disabled-40-symbolic.svg" compressed="true" preprocess="xml-stripblanks">icons/disabled-40.svg</file>
-    <file alias="24x24@2/status/indicator-bluetooth-disabled-50-symbolic.svg" compressed="true" preprocess="xml-stripblanks">icons/disabled-50.svg</file>
-    <file alias="24x24@2/status/indicator-bluetooth-disabled-60-symbolic.svg" compressed="true" preprocess="xml-stripblanks">icons/disabled-60.svg</file>
-    <file alias="24x24@2/status/indicator-bluetooth-disabled-70-symbolic.svg" compressed="true" preprocess="xml-stripblanks">icons/disabled-70.svg</file>
-    <file alias="24x24@2/status/indicator-bluetooth-disabled-80-symbolic.svg" compressed="true" preprocess="xml-stripblanks">icons/disabled-80.svg</file>
-    <file alias="24x24@2/status/indicator-bluetooth-disabled-90-symbolic.svg" compressed="true" preprocess="xml-stripblanks">icons/disabled-90.svg</file>
+    <file compressed="true">icons/bluetooth.svg</file>
   </gresource>
 </gresources>
