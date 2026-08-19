@@ -5,7 +5,9 @@
 
 public class Granite.Symbol : Granite.Bin {
     public sealed interface State {
+        // The default state
         public const string NORMAL = "normal";
+        // Disabled state represented by a slash
         public const string DISABLED = "disabled";
         public const string CHECKED = "checked";
     }
