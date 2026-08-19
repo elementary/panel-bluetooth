@@ -4,9 +4,11 @@
 */
 
 public class Granite.Symbol : Granite.Bin {
-    public const int STATE_NORMAL = 0;
-    public const int STATE_DISABLED = 1;
-    public const int STATE_CHECKED = 2;
+    public interface State {
+        public const string NORMAL = "normal";
+        public const string DISABLED = "disabled";
+        public const string CHECKED = "checked";
+    }
 
     public string resource_path { get; construct; }
 
@@ -15,9 +17,40 @@ public class Granite.Symbol : Granite.Bin {
         set { image.pixel_size = value; }
     }
 
-    public uint state {
+    public uint state_index {
         get { return svg.state; }
-        set { svg.state = value; }
+        set {
+            uint length = -1;
+            svg.get_state_names (out length);
+
+            if (value > length - 1) {
+                warning ("Granite.Symbol set to undefined state. Ignoring.");
+                return;
+            }
+
+            svg.state = value;
+            notify_property ("state");
+        }
+    }
+
+    public string state {
+        get {
+            uint length = -1;
+            return svg.get_state_names (out length)[state_index];
+        }
+        set {
+            uint length = -1;
+            var names = svg.get_state_names (out length);
+
+            for (int i = 0; i < length; i++) {
+                if (names[i] == value) {
+                    state_index = i;
+                    return;
+                }
+            }
+
+            warning ("Granite.Symbol set to undefined state. Ignoring.");
+        }
     }
 
     private Gtk.Image image;

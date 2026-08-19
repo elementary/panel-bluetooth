@@ -60,14 +60,14 @@ public class BluetoothIndicator.Widgets.DisplayWidget : Granite.Bin {
         if (state) {
             context = _("Middle-click to turn Bluetooth off");
             if (connected) {
-                symbol.state = Granite.Symbol.STATE_CHECKED;
+                symbol.state = Granite.Symbol.State.CHECKED;
                 description = _("Bluetooth connected");
             } else {
-                symbol.state = Granite.Symbol.STATE_NORMAL;
+                symbol.state = Granite.Symbol.State.NORMAL;
                 description = _("Bluetooth is on");
             }
         } else {
-            symbol.state = Granite.Symbol.STATE_DISABLED;
+            symbol.state = Granite.Symbol.State.DISABLED;
             description = _("Bluetooth is off");
             context = _("Middle-click to turn Bluetooth on");
         }
