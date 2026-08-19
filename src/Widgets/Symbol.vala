@@ -3,15 +3,16 @@
 * SPDX-FileCopyrightText: 2026 elementary, Inc. (https://elementary.io)
 */
 
-public class Granite.Symbol : Granite.Bin {
-    public sealed interface State {
-        // The default state
-        public const string NORMAL = "normal";
-        // Disabled state represented by a slash
-        public const string DISABLED = "disabled";
-        public const string CHECKED = "checked";
-    }
+namespace Granite.SymbolState {
+    // The default state
+    public const string NORMAL = "normal";
+    // Disabled state represented by a slash
+    public const string DISABLED = "disabled";
+    // e.g. paired, connected, needs attention
+    public const string ACTIVE = "active";
+}
 
+public class Granite.Symbol : Granite.Bin {
     public string resource_path { get; construct; }
 
     public int pixel_size {
