@@ -47,7 +47,7 @@ shared_module(
     'src/Widgets/Device.vala',
     'src/Widgets/DisplayWidget.vala',
     'src/Widgets/PopoverWidget.vala',
-    'src' / 'Widgets' / 'Symbol.vala',
+    'src/Widgets/Symbol.vala',
     config_file,
     gresource,
     dependencies: [

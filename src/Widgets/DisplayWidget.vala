@@ -6,14 +6,14 @@
 public class BluetoothIndicator.Widgets.DisplayWidget : Granite.Bin {
     public BluetoothIndicator.Services.ObjectManager object_manager { get; construct; }
 
-    private Granite.Symbol symbol;
+    private BluetoothIndicator.Symbol symbol;
 
     public DisplayWidget (BluetoothIndicator.Services.ObjectManager object_manager) {
         Object (object_manager: object_manager);
     }
 
     construct {
-        symbol = new Granite.Symbol ("/io/elementary/wingpanel/bluetooth/icons/bluetooth.svg") {
+        symbol = new BluetoothIndicator.Symbol ("/io/elementary/wingpanel/bluetooth/icons/bluetooth.svg") {
             pixel_size = 24
         };
 
@@ -60,14 +60,14 @@ public class BluetoothIndicator.Widgets.DisplayWidget : Granite.Bin {
         if (state) {
             context = _("Middle-click to turn Bluetooth off");
             if (connected) {
-                symbol.state = Granite.SymbolState.ACTIVE;
+                symbol.state = BluetoothIndicator.SymbolState.ACTIVE;
                 description = _("Bluetooth connected");
             } else {
-                symbol.state = Granite.SymbolState.NORMAL;
+                symbol.state = BluetoothIndicator.SymbolState.NORMAL;
                 description = _("Bluetooth is on");
             }
         } else {
-            symbol.state = Granite.SymbolState.DISABLED;
+            symbol.state = BluetoothIndicator.SymbolState.DISABLED;
             description = _("Bluetooth is off");
             context = _("Middle-click to turn Bluetooth on");
         }
