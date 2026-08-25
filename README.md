@@ -10,6 +10,7 @@ You'll need the following dependencies:
 
     gobject-introspection
     libglib2.0-dev
+    libgtk-4-dev >=4.22
     libgranite-7-dev >= 7.0.0
     libwingpanel-9-dev
     meson >= 0.58.0

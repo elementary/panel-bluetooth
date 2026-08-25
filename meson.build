@@ -47,13 +47,14 @@ shared_module(
     'src/Widgets/Device.vala',
     'src/Widgets/DisplayWidget.vala',
     'src/Widgets/PopoverWidget.vala',
+    'src/Widgets/Symbol.vala',
     config_file,
     gresource,
     dependencies: [
         dependency('glib-2.0'),
         dependency('gobject-2.0'),
         dependency('granite-7', version: '>=7.0.0'),
-        dependency('gtk4'),
+        dependency('gtk4', version: '>=4.22'),
         wingpanel_dep
     ],
     install: true,

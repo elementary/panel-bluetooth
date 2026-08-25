@@ -6,28 +6,18 @@
 public class BluetoothIndicator.Widgets.DisplayWidget : Granite.Bin {
     public BluetoothIndicator.Services.ObjectManager object_manager { get; construct; }
 
-    private Gtk.Spinner spinner;
+    private BluetoothIndicator.Symbol symbol;
 
     public DisplayWidget (BluetoothIndicator.Services.ObjectManager object_manager) {
         Object (object_manager: object_manager);
     }
 
     construct {
-        spinner = new Gtk.Spinner ();
+        symbol = new BluetoothIndicator.Symbol ("/io/elementary/wingpanel/bluetooth/icons/bluetooth.svg") {
+            pixel_size = 24
+        };
 
-        child = spinner;
-
-        // Prevent a race that skips automatic resource loading
-        // https://github.com/elementary/panel-bluetooth/issues/203
-        Gtk.IconTheme.get_for_display (Gdk.Display.get_default ()).add_resource_path ("/org/elementary/wingpanel/icons");
-
-        var provider = new Gtk.CssProvider ();
-        provider.load_from_resource ("io/elementary/wingpanel/bluetooth/indicator.css");
-
-        Gtk.StyleContext.add_provider_for_display (Gdk.Display.get_default (), provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
-
-        spinner.add_css_class ("bluetooth-icon");
-        spinner.add_css_class ("disabled");
+        child = symbol;
 
         object_manager.global_state_changed.connect ((state, connected) => {
             set_icon ();
@@ -68,18 +58,16 @@ public class BluetoothIndicator.Widgets.DisplayWidget : Granite.Bin {
         string context;
 
         if (state) {
-            spinner.remove_css_class ("disabled");
             context = _("Middle-click to turn Bluetooth off");
             if (connected) {
-                spinner.add_css_class ("paired");
+                symbol.state = BluetoothIndicator.SymbolState.ACTIVE;
                 description = _("Bluetooth connected");
             } else {
-                spinner.remove_css_class ("paired");
+                symbol.state = BluetoothIndicator.SymbolState.NORMAL;
                 description = _("Bluetooth is on");
             }
         } else {
-            spinner.remove_css_class ("paired");
-            spinner.add_css_class ("disabled");
+            symbol.state = BluetoothIndicator.SymbolState.DISABLED;
             description = _("Bluetooth is off");
             context = _("Middle-click to turn Bluetooth on");
         }
