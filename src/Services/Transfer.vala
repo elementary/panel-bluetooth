@@ -22,8 +22,8 @@ public interface BluetoothIndicator.Services.Obex.Transfer : Object {
     public abstract ObjectPath session { owned get; }
     public abstract string name { owned get; }
     public abstract string Type { owned get; }
-    public abstract uint64 time { owned get; }
-    public abstract uint64 size { owned get; }
-    public abstract uint64 transferred { owned get; }
+    public abstract uint64 time { get; }
+    public abstract uint64 size { get; }
+    public abstract uint64 transferred { get; }
     public abstract string filename { owned get; }
 }
