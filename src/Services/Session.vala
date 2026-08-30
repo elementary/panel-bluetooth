@@ -20,7 +20,7 @@ public interface BluetoothIndicator.Services.Obex.Session : Object {
     public abstract string get_capabilities () throws GLib.Error;
     public abstract string source { owned get; }
     public abstract string destination { owned get; }
-    public abstract uchar channel { owned get; }
+    public abstract uchar channel { get; }
     public abstract string target { owned get; }
     public abstract string root { owned get; }
 }
