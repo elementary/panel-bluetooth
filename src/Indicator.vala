@@ -72,9 +72,9 @@ public class BluetoothIndicator.Indicator : Wingpanel.Indicator {
     }
 }
 
-public Wingpanel.Indicator get_indicator (Module module, Wingpanel.IndicatorManager.ServerType server_type) {
+public Wingpanel.Indicator get_indicator (Module module, Wingpanel.ServerType server_type) {
     debug ("Activating Bluetooth Indicator");
-    var indicator = new BluetoothIndicator.Indicator (server_type == Wingpanel.IndicatorManager.ServerType.SESSION);
+    var indicator = new BluetoothIndicator.Indicator (server_type == Wingpanel.ServerType.SESSION);
 
     return indicator;
 }
