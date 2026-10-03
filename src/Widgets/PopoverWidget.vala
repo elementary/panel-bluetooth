@@ -107,7 +107,9 @@ public class BluetoothIndicator.Widgets.PopoverWidget : Gtk.Box {
 
         if (object_manager.has_object && object_manager.retrieve_finished) {
             foreach (var device in object_manager.get_devices ()) {
-                add_device (device);
+                if (device.paired) {
+                    add_device (device);
+                }
             }
         }
 
